@@ -4,11 +4,7 @@ public class Sheep implements Animal{
     private String food;
     private String name;
 
-    public Sheep(String name) {
-        this.legs = 4;
-        this.sound = "Baa";
-        this.food = "Grass";
-        this.name = name;
+    public Sheep() {
     }
 
     public Sheep(Sheep sheep) {

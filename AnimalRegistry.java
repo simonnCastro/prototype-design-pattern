@@ -4,14 +4,15 @@ public class AnimalRegistry{
     private Horse horsePrototype;
     
     public Animal createSheep(){
-        Sheep sheep = (Sheep) sheepPrototype.clone();
+        Sheep sheep = sheepPrototype.clone();
         return sheep;
     }
     public Animal createCow(){
-        Cow cow = cowPrototype.clone();
+        Cow cow = (Cow) cowPrototype.clone();
         return cow;
     }   
     public Animal createHorse(){
-
+        Horse horse = (Horse) horsePrototype.clone();
+        return horse;
     }   
 }
